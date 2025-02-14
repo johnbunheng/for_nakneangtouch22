@@ -1,0 +1,57 @@
+body{
+    background-color: papayawhip;
+}
+.container{
+    position: fixed;
+    display: none;
+    width: 400px;
+    height: auto;
+    border-radius: 15px;
+    background-color: rgb(121, 7, 68);
+}
+.container > .header_pop{
+    padding: 0px 10px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    color: rgb(230, 163, 199);
+}
+.container > .header_pop h3{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container > .body_pop img{
+    width: 200px;
+    margin-left: 100px;
+}
+.container > .body_pop p{
+    padding: 0px 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(230, 163, 199);
+}
+.pop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+}
+.pop > [type="button"]{
+    padding: 10px 30px;
+    border: 2px solid rgb(153, 0, 82);
+    border-radius: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    color: aliceblue;
+    background-color: deeppink;
+}
+.pop > [type="button"]:hover{
+    color: rgb(228, 81, 160);
+    background-color: rgb(226, 130, 182);
+}
+.open{
+    display: block;
+}
+.pop > .pic{
+    position: absolute;
+    top: 0;
+}
